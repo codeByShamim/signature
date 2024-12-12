@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Email Signature</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .signature-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .signature-header {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-pic {
+            flex-shrink: 0;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #FF6600;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-info h1 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .profile-info p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 16px;
+        }
+
+        .profile-info .tagline {
+            color: #FF6600;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #FF6600;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #e55b00;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.1);
+        }
+
+        @media screen and (max-width: 480px) {
+            .signature-container{
+                margin: 20px 10px;
+            }
+            .signature-header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .profile-info h1 {
+                font-size: 18px;
+            }
+
+            .profile-info p {
+                font-size: 14px;
+            }
+
+            .cta-button {
+                font-size: 12px;
+                padding: 6px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="signature-container">
+        <div class="signature-header">
+            <div class="profile-pic">
+                <img src="https://i.ibb.co/SvGyNf4/jhon-img.png" alt="Profile Picture">
+            </div>
+            <div class="profile-info">
+                <h1>John Blakley</h1>
+                <p>Founder & President of JSpeaks</p>
+                <p class="tagline">Real People. Real Conversations. JSpeaks</p>
+                <a href="https://linktr.ee/j.speaks__" class="cta-button">Subscribe to Newsletter</a>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://aboutjspeaks.com">
+                <img src="https://i.ibb.co/rFgSbGz/world-wide-web.png" alt="Website">
+            </a>
+            <a href="https://www.youtube.com/@Jspeaks6623/videos">
+                <img src="https://i.ibb.co/sjxHn8t/youtube.png" alt="YouTube">
+            </a>
+            <a href="https://instagram.com/JSpeaks__">
+                <img src="https://i.ibb.co/VHZCSnv/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/johnblakleyjr/">
+                <img src="https://i.ibb.co/23MhYsy/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61557552613463&mibextid=LQQJ4d">
+                <img src="https://i.ibb.co/G0XyBLT/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://tiktok.com/@jspeaks__">
+                <img src="https://i.ibb.co/Ytrhgy5/tiktok.png" alt="TikTok">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
